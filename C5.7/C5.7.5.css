@@ -1,0 +1,83 @@
+body {
+    background-color: #AEA8B0;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+
+.input-div, .label-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-label {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    color: #333;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+}
+
+.btn {
+    display: inline;
+    width: 200px;
+    height: 50px;
+    margin: 30px auto;
+    background-color: #81668A;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: none;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #56445C;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+    color: black;
+    margin: 0 auto;
+}

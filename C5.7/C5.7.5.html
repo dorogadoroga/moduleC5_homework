@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C5.7.5.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form class="input-form" method="get" action="#">
+            <div class="label-div">
+                <label for="input1" class="input-label">Номер страницы</label><br>
+                <label for="input2" class="input-label">Лимит</label>
+            </div>
+            <div class="input-div">
+                <input id="page" type="text" name="page" placeholder="Введите число от 1 до 10" required><br>
+                <input id="limit" type="text" name="limit" placeholder="Введите число от 1 до 10" required>
+            </div>
+        </form>
+        <button class="btn" type="submit">Запрос</button>
+    </div>
+    <div class="result"></div>
+
+    <script src="C5.7.5.js"></script>
+</body>
+</html>
